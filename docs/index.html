@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Dosis&family=Roboto&family=Shadows+Into+Light+Two&display=swap"
+        rel="stylesheet">
+
+    <!-- My custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h3 class="my_logo">My Portfolio</h3>
+        </div>
+
+        <button class="nav-toggle" aria-label="navigation-toggle">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="list"><a href="#me" class="nav_link">About Me</a></li>
+                <li class="list"><a href="#skl" class="nav_link">Skills</a></li>
+                <li class="list"><a href="#prj" class="nav_link">Projects</a></li>
+                <li class="list"><a href="#cnt" class="nav_link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro" id="home">
+        <h1 class="intro_title">
+            Hi, I am <strong>Nabeel Hussain</strong>
+        </h1>
+        <p class="intro_subtitle">2nd Yr B.Tech IT | SSN '23</p>
+        <img src="images/dp.jpg" alt="My Photo" class="intro_img">
+    </section>
+
+    <!-- About Me -->
+    <section class="abt_me" id="me">
+        <h2 class="abt_me_title">About Me</h2>
+        <div class="abt_me_cnt">
+            <p class="info">An enthusiastic aspiring Information Technologist 👨‍💻. <br>
+                A self-motivated learner👨‍🏫 with a variety of skills and passionate about new technologies 📱. <br>
+                A born perfectionist👨‍🔬 who strives to do any work entrusted. An ardent learner, who finds it hard to
+                leave
+                anything unexplored🌐. <br> And finally a critical thinker🤔 who thinks twice and carefully looks into
+                all
+                the intricacies🤹 before arriving at a conclusion.</p>
+        </div>
+    </section>
+
+    <!-- My Skills -->
+    <section class="skill" id="skl">
+        <h2 class="skl_title">My Skills</h2>
+        <div class="skill_cnt">
+            <img src="images/c.png" alt="C">
+            <img src="images/cpp.png" alt="C++">
+            <img src="images/python.png" alt="Python">
+            <img src="images/html.png" alt="HTML">
+            <img src="images/css.png" alt="CSS">
+            <img src="images/js.png" alt="JavaScript">
+        </div>
+    </section>
+
+    <!-- My Projects -->
+    <section class="project" id="prj">
+        <h2 class="prj_title">My Projects</h2>
+        <div class="portfolio">
+            <div class="prj_img">
+                <img src="images/project_1.png" alt="project 1" class="prj1">
+                <p>Inventory Management System</p><br>
+                <p class="info">Simple Windows Application to manage Inventories built using C#(.Net) and MS SQL Server
+                    database🗄️</p>
+                <a href="https://github.com/nabeel001/Inventory-Management-System" target="blank"><i
+                        class="fab fa-github-alt fa-2x"></i></a>
+            </div>
+
+            <div class="prj_img">
+                <img src="images/project_2.png" alt="project 2" class="prj2">
+                <p>My Portfolio</p><br>
+                <p class="info">Simple Portfolio👨‍💼 built using HTML, CSS, and JavaScript</p>
+                <a href="#" target="blank"><i class="fab fa-github-alt fa-2x"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="cnt">
+        <div class="list">
+            <ul class="social_list">
+                <li class="social_list_item">
+                    <a href="https://www.linkedin.com/in/nabeel001" target="blank" class="linkedIn">
+                        <i class="fab fa-linkedin fa-2x "></i>
+                    </a>
+                </li>
+                <li class="social_list_item">
+                    <a href="https://github.com/nabeel001" target="blank" class="github">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                </li>
+                <li class="social_list_item">
+                    <a href="mailto:mnnh2001@gmail.com" class="mail">
+                        <i class="fas fa-envelope fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p>COPYRIGHT © 2021 Nabeel Hussain😎</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
